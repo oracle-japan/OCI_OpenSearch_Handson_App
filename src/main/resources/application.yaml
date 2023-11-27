@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  host: 0.0.0.0
+  static:
+    classpath:
+      location: /static
+
+metrics:
+  rest-request:
+    enabled: false
+
+oci:
+  opensearch:
+    api:
+      endpoint: https://amaaaaaassl65iqah4lz5yqams26qzo4ibo5ming52uz7vioudcs2fzdoduq.opensearch.ap-tokyo-1.oci.oraclecloud.com:9200
+    credential:
+      username: guest
+      password: Wellcome#123
